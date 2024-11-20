@@ -48,6 +48,10 @@ const generateWa = (params) => {
         location.href =
           "https://wa.me/+6281335333867?text=bang%20saya%20pesan%20es%20kopi%20coklat%20nya";
         break;
+      case "lumpia":
+        location.href =
+          "https://wa.me/+6281335333867?text=bang%20saya%20pesan%20lumpia%20nya";
+        break;
      
     }
   };
