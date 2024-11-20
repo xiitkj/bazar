@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XII TKJ 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body>
+    <header class="bg-transparent z-[999] fixed w-full left-0 top-0">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between md:justify-around mx-auto p-4 text-primary"
+      >
+        <a
+          href="https://www.instagram.com/xii.tkj1_smuhero/"
+          target="_blank"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <span
+            class="self-center text-2xl font-semibold font-primary "
+            >XII TKJ 1</span
+          >
+        </a>
+
+        <button
+          data-collapse-toggle="navbar-default"
+          id="hamburger"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden"
+        >
+          <svg
+            class="w-5 h-5 "
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+
+        <nav
+          class="hidden w-full md:block md:w-auto font-primary text-center"
+          id="navbar"
+        >
+          <ul
+            class="font-medium flex flex-col p-4 w-full md:p-0 mt-4 bg-secondary md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 shadow-lg shadow-primary md:bg-transparent   md:shadow-none"
+          >
+            <li><a href="#home" class="navbar">Home</a></li>
+            <li><a href="#menu" class="navbar">Menu</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="mt-32" id="home">
+      <div class="flex flex-col md:flex-row md:justify-evenly items-center justify-center w-full">
+        <!-- Gambar -->
+        <div
+          class="w-64 md:w-72  rounded-lg overflow-hidden mb-6 md:ml-10" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700"
+        >
+          <img src="dist/bazar/2.jpeg" alt="siswa" class="rounded-lg" />
+        </div>
+        <div class="text-center font-primary mx-10  md:text-start " data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
+          <h1 class="text-3xl">STAND XII TKJ 1</h1>
+          <p class="mt-2">Mari datang dan menikmati berbagai camilan dan minuman</p>
+          <button type="button" class="text-secondary mt-2 bg-primary hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 shadow-md shadow-secondary">Pesan Sekarang</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-20 pb-20 scroll-mt-14" id="menu">
+        <div class="text-center text-2xl font-title md:text-3xl">
+            <h1>Menu Makanan dan Minuman</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 justify-center gap-x-6 gap-y-10 font-primary mt-10">
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" >
+                <img class="rounded-t-lg" src="/dist/bazar/pentol.webp" alt="" />
+                <div class="p-5 text-center">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 border-b pb-2 border-primary">Pentol</h5>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-300 mt-1"  onclick="generateWa('pentol')">
+                        Pesan
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
+                <img class="rounded-t-lg" src="/dist/bazar/sate_ayam.jpg" alt="" />
+                <div class="p-5 text-center">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 border-b pb-2 border-primary">Sate Ayam</h5>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-300 mt-1"  onclick="generateWa('ayam')">
+                        Pesan
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
+                <img class="rounded-t-lg" src="/dist/bazar/sate_kul.jpg" alt="" />
+                <div class="p-5 text-center">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 border-b pb-2 border-primary">Sate Kol</h5>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-300 mt-1"  onclick="generateWa('kol')">
+                        Pesan
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
+                <img class="rounded-t-lg" src="/dist/bazar/lumpia.jpg" alt="" />
+                <div class="p-5 text-center">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 border-b pb-2 border-primary">Lumpia</h5>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-300 mt-1"  onclick="generateWa('lumpia')">
+                        Pesan
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
+                <img class="rounded-t-lg" src="/dist/bazar/risol.webp" alt="" />
+                <div class="p-5 text-center">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 border-b pb-2 border-primary">Risol</h5>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-300 mt-1"  onclick="generateWa('risol')">
+                        Pesan
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
+                <img class="rounded-t-lg" src="/dist/bazar/dimsum.jpg" alt="" />
+                <div class="p-5 text-center">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 border-b pb-2 border-primary">Dimsum</h5>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-300 mt-1"  onclick="generateWa('dimsum')">
+                        Pesan
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
+                <img class="rounded-t-lg" src="/dist/bazar/es.jpg" alt="" />
+                <div class="p-5 text-center">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 border-b pb-2 border-primary">Es Kopi coklat</h5>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-300 mt-1"  onclick="generateWa('es')">
+                        Pesan
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
